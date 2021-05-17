@@ -1,0 +1,36 @@
+.bg-grey{
+    background-color: #5F6366;
+}
+
+.bg-blue{
+    background-color: #4D6D9A;
+}
+
+.bg-mutedblue{
+	background-color: #86B3D1;
+}
+
+.bg-lightblue{
+    background-color: #99CED3;
+}
+
+.bg-pink{
+    background-color: #EDB5BF;
+}
+
+.overlay {
+    min-width: 400px;
+    max-width: 40%;
+    max-height: 500px;
+    padding: 50px 0px 40px 0px;
+    background-color: #F5E6FF;
+    align-items: center;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,1);
+    border-radius: 2px;
+    top: 17%;
+}
+
+img.img-fluid{
+    max-height: 300px;
+    max-width: 300px;
+}
