@@ -16,23 +16,29 @@
 
 <body>
     <!-- Background Image -->
-    <!-- change background image -->
-    <img class="position-absolute w-100 h-100" src='assets/cloud.jpg'>
+    <!-- change background image
+    <img class="position-absolute w-100 h-100" style="object-fit: cover;" src='assets/night.jpg'> -->
+
+    <!-- The video -->
+    <video autoplay muted loop id="nightbackground">
+        <source src="assets/night.mp4" type="video/mp4">
+    </video>
 
     <!-- Landing Page -->
-    <div class="position-relative text-dark container text-center h-100 d-flex flex-column justify-content-center centered overlay" style="font-family:'Courier New', Courier, monospace;">
-        <h1 class="display-4"> Phuong-Anh Nguyen </h1>
-        <hr>
-        <p> Bachelor of Science in Computer Science, Minor in Mathematics </p>
+    <div class="position-relative text-dark text-center h-100 d-flex flex-column justify-content-center" style="font-family:'Courier New', Courier, monospace;">
+        <h1 class="display-4" style="text-shadow: 0px 1px grey;"> Phuong-Anh Nguyen </h1>
+        <hr style="width:65%; margin: 0 auto;">
+        <br>
+        <p style="color: white; text-shadow: 2px 1px black; font-size: larger;"> Bachelor of Science in Computer Science, Minor in Mathematics </p>
         <div>
-            <button class="btn btn-outline-dark" type="button" onclick="document.location='about.html'">
-                <i class="bi bi-person-circle"> </i> About
+            <button class="btn btn-outline-light" type="button" onclick="document.location='about.html'">
+                <i class="bi bi-person-circle" style="color: white;"> </i> About
             </button>
-            <button class="btn btn-outline-dark" type="button" onclick="document.location='projects.html'">
-                <i class="bi bi-code-slash"> </i> Projects
+            <button class="btn btn-outline-light" type="button" onclick="document.location='projects.html'">
+                <i class="bi bi-code-slash" style="color: white;"> </i> Projects
             </button>
-            <button class="btn btn-outline-dark" type="button" onclick="document.location='contact.html'">
-                <i class="bi bi-envelope-fill"> </i> Contact
+            <button class="btn btn-outline-light" type="button" onclick="document.location='contact.html'">
+                <i class="bi bi-envelope-fill" style="color: white;"> </i> Contact
             </button>
         </div>
     </div>
